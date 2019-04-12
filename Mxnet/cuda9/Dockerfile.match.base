@@ -1,5 +1,5 @@
 # -*- mode: dockerfile -*-
-FROM pistonyang/mxnet:base-cu90
+FROM pistonyang/mxnet:base-cuda90
 LABEL maintainer="pistonyang@gmail.com"
 
 RUN pip3 install gluocv gluonfr \
