@@ -16,5 +16,5 @@ docker pull pistonyang/mxnet:base-cuda100
 ```
 - Pytorch
 ```shell
-docker pull pistonyang/pytorch:base-cu100
+docker pull pistonyang/pytorch:base-cuda100
 ```
