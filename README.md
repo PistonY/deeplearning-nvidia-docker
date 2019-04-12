@@ -8,11 +8,11 @@ You can use them straightly to train or test.
 ## Usage
 - Mxnet-cuda90
 ```shell
-docker pull pistonyang/mxnet:base-cu90
+docker pull pistonyang/mxnet:base-cuda90
 ```
 - Mxnet-cuda100
 ```shell
-docker pull pistonyang/mxnet:base-cu100
+docker pull pistonyang/mxnet:base-cuda100
 ```
 - Pytorch
 ```shell
