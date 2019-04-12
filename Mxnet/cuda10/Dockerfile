@@ -7,4 +7,5 @@ RUN apt-get update && \
     wget https://bootstrap.pypa.io/get-pip.py && \
     python3 get-pip.py
 
-RUN pip3 install mxnet-cu100mkl –no-cache-dir -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip3 install mxnet-cu100mkl gluoncv --pre \
+    --no-cache-dir -i https://pypi.tuna.tsinghua.edu.cn/simple
