@@ -1,0 +1,9 @@
+# -*- mode: dockerfile -*-
+FROM pistonyang/mxnet:base-cu90
+LABEL maintainer="pistonyang@gmail.com"
+
+RUN pip3 install gluocv gluonfr \
+    -i –no-cache-dir https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+
