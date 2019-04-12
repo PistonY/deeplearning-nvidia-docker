@@ -3,7 +3,7 @@ FROM pistonyang/mxnet:base-cuda90
 LABEL maintainer="pistonyang@gmail.com"
 
 RUN pip3 install gluocv gluonfr \
-    -i –no-cache-dir https://pypi.tuna.tsinghua.edu.cn/simple
+    –no-cache-dir -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 
 
