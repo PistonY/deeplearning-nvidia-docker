@@ -1,4 +1,4 @@
-# piston-nvidia-docker(with antobuilding by docker hub)
+# piston-nvidia-docker(with autobuilding by docker hub)
 Custom nvidia-docker for Mxnet and Pytorch.
 
 Contains cuda+cudnn environment and deeplearning framework.
