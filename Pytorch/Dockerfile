@@ -12,9 +12,8 @@ RUN apt-get -qq update && apt-get -qq -y install curl bzip2 \
     && apt-get autoclean \
     && rm -rf /var/lib/apt/lists/* /var/log/dpkg.log \
     && conda clean --all --yes \
-    && conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
 
-RUN conda install -y pytorch torchvision cudatoolkit=10.0 \
+RUN conda install -y pytorch torchvision cudatoolkit=10.0 -c pytorch\
     && conda clean --all --yes
 
 ENV PATH /opt/conda/bin:$PATH
