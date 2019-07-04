@@ -13,7 +13,7 @@ RUN apt-get -qq update && apt-get -qq -y install curl bzip2 \
     && rm -rf /var/lib/apt/lists/* /var/log/dpkg.log \
     && conda clean --all --yes \
 
-RUN conda install -y pytorch torchvision cudatoolkit=10.0 -c pytorch\
+RUN conda install -y pytorch torchvision cudatoolkit=10.0 -c pytorch \
     && conda clean --all --yes
 
 ENV PATH /opt/conda/bin:$PATH
